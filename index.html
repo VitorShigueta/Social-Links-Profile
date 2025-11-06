@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+            --font-inter: 'Inter', sans-serif;
+            --color-green: hsl(75, 94%, 57%);
+            --color-grey-700:hsl(0, 0%, 20%);
+            --color-grey-800: hsl(0, 0%, 12%);
+            --color-grey-900:hsl(0, 0%, 8%);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Social Links Profile</title>
+</head>
+<body>
+    <main class="h-screen w-screen grid place-items-center bg-grey-900 font-inter text-white">
+        <div class="rounded-xl bg-grey-800 w-80 h-130 flex flex-col items-center">
+            <img src="./assets/profile-photo.jpg" alt="Profile photo" class="rounded-full w-18 h-18 mt-10 mb-2">
+            <h1 class="text-[18px] font-[600] ">Vitor Huggo Shigueta</h1>
+            <p class="text-green text-[14px] font-[600] mt-2">Maringá, Brasil</p>
+            <p class="mt-5 text-[14px] font-[400]">"Software Engineer and avid reader."</p>
+            <div class="flex flex-col place-items-center mt-2 w-full text-[14px] font-[600]">
+                <a href="https://github.com/VitorShigueta" target="_blank" tabindex="1" class="rounded-md bg-grey-700 grid place-items-center h-10 w-[256px] mt-3 hover:bg-green hover:text-black">GitHub</a>
+                <a href="https://www.frontendmentor.io/profile/VitorShigueta" target="_blank" tabindex="2" class="rounded-md bg-grey-700 grid place-items-center h-10 w-[256px] mt-3 hover:bg-green hover:text-black">Frontend Mentor</a>
+                <a href="https://www.linkedin.com/in/vitor-shigueta/" target="_blank" tabindex="3" class="rounded-md bg-grey-700 grid place-items-center h-10 w-[256px] mt-3 hover:bg-green hover:text-black">LinkedIn</a>
+                <a href="" target="_blank" tabindex="4" class="rounded-md bg-grey-700 grid place-items-center h-10 w-[256px] mt-3 hover:bg-green hover:text-black">Twitter</a>
+                <a href="" target="_blank" tabindex="5" class="rounded-md bg-grey-700 grid place-items-center h-10 w-[256px] mt-3 hover:bg-green hover:text-black">Instagram</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
